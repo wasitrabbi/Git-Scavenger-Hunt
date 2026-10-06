@@ -19,7 +19,7 @@ class QuantumCalibrator:
     def defunc_the_defibrillator(self):
         print("[QuantumCalibrator] Defuncing the defibrillator...")
         time.sleep(0.3)
-        self.defibrillator_defunced = True # TODO: Remember to switch this back to true -Tom
+        self.defibrillator_defunced = True 
         if self.defibrillator_defunced:
             print("[QuantumCalibrator] Defibrillator successfully defunced.\n")
         else:
@@ -44,7 +44,7 @@ class MechanicalSubsystem:
         print("[MechanicalSubsystem] Applying lubricant to the thingamajig...")
         time.sleep(0.3)
 
-        self.oiled = True  # TODO: uhh, Tom I think you put the wrong variable name -Jane
+        self.oiled = True  
 
         if self.oiled:
             print("[MechanicalSubsystem] Thingamajig successfully oiled.\n")
@@ -70,7 +70,7 @@ class DataPipeline:
     def initialize_the_hyperbuffer(self):
         print("[DataPipeline] Initializing hyperbuffer...")
         time.sleep(0.3)
-        self.buffer = [6, 7] # TODO: Shouldn't this be 7? Also, should we be putting our to-do's in the code like this? -Jane
+        self.buffer = [6, 7] 
 
         print("[DataPipeline] Validating hyperbuffer coherency...")
         time.sleep(0.6)
